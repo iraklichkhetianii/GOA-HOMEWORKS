@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W2.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w2schools.com/w2css/4/w2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h2,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w2-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w2-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w2-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w2-sidebar w2-bar-block w2-small w2-hide-small w2-center">
+  <!-- Avatar image in top left corner -->
+  <img src="4.jpg" style="width:100%">
+  <a href="#" class="w2-bar-item w2-button w2-padding-large w2-black">
+    <i class="fa fa-home w2-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w2-bar-item w2-button w2-padding-large w2-hover-black">
+    <i class="fa fa-user w2-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w2-bar-item w2-button w2-padding-large w2-hover-black">
+    <i class="fa fa-eye w2-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w2-bar-item w2-button w2-padding-large w2-hover-black">
+    <i class="fa fa-envelope w2-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w2-top w2-hide-large w2-hide-medium" id="myNavbar">
+  <div class="w2-bar w2-black w2-opacity w2-hover-opacity-off w2-center w2-small">
+    <a href="#" class="w2-bar-item w2-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w2-bar-item w2-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w2-bar-item w2-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w2-bar-item w2-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w2-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w2-container w2-padding-22 w2-center w2-black" id="home">
+    <h1 class="w2-jumbo"><span class="w2-hide-small">I'm</span> Irakli Chkhetiani.</h1>
+    <p>Programist and Footballer.</p>
+    <img src="4.jpg" alt="boy" class="chxeto" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w2-content w2-justify w2-text-grey w2-padding-64" id="about">
+    <h2 class="w2-text-light-grey">My Name</h2>
+    <hr style="width:200px" class="w2-opacity">
+    <p>Some text about me, Im Irakli Chkhetiani i love some trips in forests,<br>
+    also i love play football with my friend</p>
+    <h2 class="w2-padding-16 w2-text-light-grey">My Skills</h2>
+    <p class="w2-wide">Play Footba;and programming</p>
+    <div class="w2-white">
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
